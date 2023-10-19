@@ -9,7 +9,7 @@
 // en caso de que no sea divisible por 3 o 5 hacer un log del numero
 
 
-
+//hola people
 function miFuncion(num1, num2) {
 
     if (num1 > num2) {
