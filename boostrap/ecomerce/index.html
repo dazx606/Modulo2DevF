@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="./images/beer.png" alt="" width="25" height="24">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Marcas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="dropdown-item">Modelo</li>
+                                <li class="dropdown-item">Águila</li>
+                                <li class="dropdown-item">Quilmes</li>
+                                <li class="dropdown-item">Corona</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Promociones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar.." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="carrusel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/pexels-edward-eyer-667986.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pexels-elevate-1267684.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pexels-tembela-bohle-1089932.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./images/cerveza/256981-300-300.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Andina Light</h5>
+                        <p class="card-text">Cerveza rubia de sabor suave.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./images/cerveza/230472-300-300.png" class="card-img-top" alt="..">
+                    <div class="card-body">
+                        <h5 class="card-title">Asahi</h5>
+                        <p class="card-text">Cerveza rubia proveniente de Japón.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/cerveza/256992-300-300.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Andina</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/cerveza/257056-300-300.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Andina Light</h5>
+                        <p class="card-text">Cerveza rubia de sabor suave.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/cerveza/257205-300-300.png" class="card-img-top" alt="..">
+                    <div class="card-body">
+                        <h5 class="card-title">Asahi</h5>
+                        <p class="card-text">Cerveza rubia proveniente de Japón.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./images/cerveza/282140-300-300.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Andina</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-center">
+            <div class="col-3">
+                <nav aria-label="...">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="align-items-center bg-dark bg-gradient text-white" style="height: 75px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Contactanos</p>
+                </div>
+                <div class="col">
+                    <p>Trabaja con nosotros</p>
+                </div>
+                <div class="col">
+                    <p>Promociones</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
